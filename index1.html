@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript">
+			function regist() {  
+        // 如果需要在新窗口打开注册界面；  
+        // window.open('zhuCe.html');  
+        // 如果需要在当前窗口打开登录界面  
+        window.location.href = 'zhuCe.html';  
+   }  
+		</script>
+		<style type="text/css">
+			.dl{
+				border: 1sp dashed black;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="zuoye.html" >
+<div class="dl">
+	<table border="1ps">
+		<tr>
+			<td>用户名：</td>
+		    <td><input type="text" name="Ypassword"><br></td>
+		</tr>
+		<tr>
+			<td> 密码：</td>
+		    <td> <input type="text" name="newpassword"><br></td>
+		</tr>
+ <tr align="center">
+<td colspan="3">
+		<input type="submit"  value="登录">
+		<input type="button"name="lyp" id="button3" value="注册" onclick="regist()"/>
+		</td>
+	</tr>
+         
+          </table>
+</div>
+		</form>
+	</body>
+</html>
